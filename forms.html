@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+    <form action=""></form>
+    <hr>
+    <form >
+        <input type="text">
+        <hr>
+           <label for="">Текст</label>
+           <input type="text">
+        <hr>
+           <label for="text2">Текст</label>
+           <input type="text" id="text2">      
+           <label for="Email">Email</label>
+           <input type="text" id="Email">
+         <hr>
+         <div>
+           <label for="text">Текст</label>
+           <input type="text" id="text"> 
+        </div>             
+        <div>
+           <label for="Email">Email</label>
+           <input type="Email" id="Email">
+        </div>
+        <div>
+           <label for="Password">Пароль</label>
+           <input type="Password" id="Password">
+        </div>
+        <div>
+            <label for="number">Число</label>
+            <input type="number" id="number" min="0" max="10">
+        </div>
+        <div>
+            <label for="range">Число</label>
+            <input type="range" id="range" min="0" max="10" step="2">
+        </div>
+        <div>
+            <label for="Date">Дата</label>
+            <input type="Date" id="Date">
+        </div>
+        <div>
+            <label for="color">Цвет</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="message">Сообщение</label>
+            <br>        
+            <textarea name="message" id="message" cols="25" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="sex">Пол</label>
+            <select  id="sex">
+                <option value="male">Мужчина</option>
+                <option value="female"selected>Женщина</option>
+            </select>
+        </div>
+        <div>
+            <label >Количество работ:</label>
+            <input type="radio" name="work">1
+            <input type="radio" name="work">2
+            <input type="radio" name="work">5
+            <input type="radio" name="work">10+
+        </div>
+        <div>
+            <label >Любимая еда:</label>
+            <input type="checkbox" name="food">огурцы
+            <input type="checkbox" name="food">селедка
+            <input type="checkbox" name="food">водка
+            <input type="checkbox" name="food">кровавая мэри
+        </div>
+             <!--<input type="submit" value="Отправить форму">-->
+            <button type="submit">Отправить форму</button>  
+            <hr> 
+            <div>
+                <label for="text">Текст</label>
+                <input type="text" id="text" value="Текст по умолчанию"> 
+             </div> 
+             <div>
+                <label for="Email">Email</label>
+                <input type="Email" id="Email" placeholder="Введите email">
+             </div> 
+             <div>
+                <label for="text1">Текст</label>
+                <input type="text1" id="text1" value="Текст по умолчанию" readonly> 
+             </div>                
+
+    </form>
+
+    
+</body>
+</html>
